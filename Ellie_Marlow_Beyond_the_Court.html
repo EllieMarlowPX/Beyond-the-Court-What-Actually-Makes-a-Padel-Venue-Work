@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beyond the Court — Ellie Marlow</title>
+<meta name="description" content="From site feasibility to sustainable operating model — an operator's perspective on building padel venues that perform.">
+<style>
+:root{
+  --ink:#171816;
+  --stone:#e9e4da;
+  --stone-light:#f5f2eb;
+  --paper:#fffefa;
+  --sage:#87947c;
+  --sage-dark:#53604d;
+  --line:#d8d2c7;
+  --muted:#6e6b64;
+  --max:1120px;
+  --reading:790px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--stone);
+  color:var(--ink);
+  font-family:Arial,Helvetica,sans-serif;
+  line-height:1.65;
+}
+.hero{
+  min-height:72vh;
+  display:flex;
+  align-items:flex-end;
+  background:var(--stone);
+  color:var(--ink);
+  padding:72px 38px 64px;
+}
+.hero-inner{width:100%;max-width:var(--max);margin:auto}
+.kicker{
+  display:inline-block;
+  padding:8px 12px;
+  border:1px solid rgba(23,24,22,.35);
+  border-radius:999px;
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--ink);
+  margin-bottom:28px;
+}
+h1{
+  font-size:clamp(50px,8vw,94px);
+  line-height:.92;
+  letter-spacing:-.055em;
+  margin:0 0 32px;
+  max-width:1040px;
+  font-weight:700;
+}
+.subtitle{
+  font-size:clamp(18px,2.1vw,25px);
+  line-height:1.42;
+  color:#484943;
+  max-width:720px;
+  margin:0 0 32px;
+}
+.byline{
+  font-size:13px;
+  font-weight:700;
+  color:var(--ink);
+  padding-top:22px;
+  border-top:1px solid rgba(23,24,22,.25);
+  max-width:720px;
+}
+.article{
+  max-width:var(--max);
+  margin:0 auto 50px;
+  background:transparent;
+  padding:0 38px 40px;
+  box-shadow:none;
+}
+.article > p, .article > section{
+  max-width:var(--reading);
+  margin-left:auto;
+  margin-right:auto;
+}
+.pullquote{
+  max-width:var(--max);
+  margin:0 auto 56px;
+  background:var(--ink);
+  color:var(--paper);
+  border:0;
+  border-radius:22px;
+  padding:48px 52px;
+  font-size:clamp(31px,4.2vw,54px);
+  line-height:1.03;
+  letter-spacing:-.035em;
+  font-weight:700;
+}
+p{
+  font-size:17px;
+  line-height:1.72;
+  margin:0 0 20px;
+}
+section{
+  background:var(--paper);
+  border-radius:18px;
+  padding:42px 44px 32px;
+  margin-top:24px !important;
+  margin-bottom:24px !important;
+  border:1px solid rgba(23,24,22,.07);
+}
+h2{
+  font-size:clamp(28px,3.3vw,42px);
+  line-height:1.05;
+  letter-spacing:-.035em;
+  margin:0 0 26px;
+  padding:0;
+}
+h2:before{
+  content:"";
+  display:block;
+  width:32px;
+  height:5px;
+  border-radius:5px;
+  background:var(--sage);
+  margin-bottom:22px;
+}
+strong{font-weight:700}
+.closing{
+  max-width:var(--reading);
+  margin:56px auto 0;
+  padding:46px;
+  border-radius:20px;
+  background:var(--sage-dark);
+  color:white;
+}
+.closing p{
+  font-size:clamp(22px,3vw,32px);
+  line-height:1.28;
+  letter-spacing:-.02em;
+  margin:0;
+}
+footer{
+  max-width:var(--max);
+  margin:auto;
+  padding:0 38px 48px;
+  color:#55564f;
+  font-size:12px;
+}
+@media(max-width:700px){
+  .hero{min-height:auto;padding:50px 22px 44px}
+  h1{font-size:50px}
+  .article{padding:0 16px 30px}
+  .pullquote{border-radius:16px;padding:32px 26px;margin-bottom:32px}
+  section{padding:32px 24px 24px;border-radius:15px}
+  p{font-size:16px}
+  footer{padding:0 22px 35px}
+}
+@media print{
+  body{background:white}
+  .hero{min-height:auto;padding:35px}
+  .article{padding:0 25px}
+  section{break-inside:avoid-page;border:1px solid var(--line)}
+  .pullquote,.closing{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="kicker">Padel Development &amp; Operations</div>
+    <h1>Beyond the Court:<br>What Actually Makes a Padel Venue Work</h1>
+    <p class="subtitle">From site feasibility to sustainable operating model — an operator’s perspective on building padel venues that perform.</p>
+    <div class="byline">Ellie Marlow &nbsp;|&nbsp; Operations Director &nbsp;|&nbsp; Padel Development &amp; Operations Specialist</div>
+  </div>
+</header>
+
+<main class="article">
+  <div class="pullquote">The court is the product.<br>The club is the business.</div>
+  <p>Padel is growing quickly in the UK. Courts are being planned, funded and installed at pace, and the opportunity is significant.</p>
+<p>But one thing has become increasingly clear to me from working across both padel development and multi-site operations: <strong>building courts and building a successful padel business are not the same thing.</strong></p>
+<p>Many of the decisions that determine whether a venue will ultimately perform are made long before the first player steps onto court.</p>
+<p>I now work across the complete journey — from initial site feasibility and commercial modelling, through venue design, development and mobilisation, to launch, pricing, memberships, technology, coaching, customer experience and ongoing operational performance.</p>
+<section><h2>Start with the business, not the number of courts</h2><p>One of the first questions around a potential site is often: <strong>“How many courts can we fit here?”</strong> I think there is a more important question to answer first: <strong>“What business are we trying to create here?”</strong></p>
+<p>A two-court rural club, a three-court university site, a premium leisure destination and a six-court indoor venue are not simply different-sized versions of the same business. Their catchments, customers, peak periods, staffing requirements, pricing opportunities, coaching models, secondary revenue and cost structures can all be different.</p>
+<p>Site feasibility therefore has to go much further than whether there is enough physical space for the courts. Who is going to play? When will they play? What will they realistically pay? What competition exists now — and what is likely to exist in two years? Is there sufficient demand outside peak hours? What does the cost base look like? And what level of utilisation does the business actually need to achieve?</p>
+<p><strong>A site can be technically suitable for padel without necessarily being commercially suitable for the padel business being proposed.</strong></p></section>
+<section><h2>Design backwards from the operation</h2><p>Operational thinking needs to be present during design — not introduced when construction is nearly complete.</p>
+<p>Walk through the venue as a customer before it exists. How do I find it? Where do I park? Where do I enter? How do I access the courts? What happens if I arrive early? Where do I put my things? Can I buy water? Hire a racket? Sit down afterwards? What happens when it rains? What if nobody is onsite? What if something goes wrong?</p>
+<p>Then walk through it as the operator. How are the lights controlled? Who manages access? Where is CCTV required? Where is equipment stored? How is the site cleaned and maintained? How does a contractor get in? Where is first aid? How are incidents reported? Who knows when something has failed?</p>
+<p>Small decisions made during development can create either operational efficiency or years of unnecessary friction. <strong>The best time to solve those problems is while you can still move something on a plan.</strong></p></section>
+<section><h2>Build the operating model before opening</h2><p>Opening day shouldn’t be the point at which you discover how the club is going to work.</p>
+<p>Pricing, memberships, coaching, staffing, opening hours, access, maintenance, customer communications, safeguarding, health & safety and escalation procedures all need an operating model behind them — and they are interconnected.</p>
+<p>Change court availability and you can change the economics of a membership. Introduce coaching without considering court utilisation and you can displace valuable inventory. Add staff without understanding what technology can automate and the cost base changes. Create a membership proposition without modelling player behaviour and you may generate lots of members but not necessarily the right utilisation or revenue.</p>
+<p><strong>Every decision has a consequence somewhere else in the model.</strong></p></section>
+<section><h2>Utilisation is not one number</h2><p>A headline utilisation percentage can hide a lot. A club can be incredibly busy at 6pm on a Tuesday and almost empty at 11am on a Thursday. Reporting an average doesn’t solve the commercial problem.</p>
+<p>I want to understand <strong>when</strong> people are playing. Peak, off-peak and the hardest-to-fill periods need to be understood separately because they require different interventions.</p>
+<p>Memberships can help. So can coaching, social play, leagues, americanos, introductory sessions, student or community offers and targeted promotions. But the objective shouldn’t simply be to discount empty courts.</p>
+<p><strong>Create reasons for different groups of people to play at different times.</strong> That’s a much more sustainable way to build utilisation.</p></section>
+<section><h2>Technology is part of the operating model</h2><p>For a modern padel venue — particularly across multiple sites — technology isn’t an add-on. It is part of the operational infrastructure.</p>
+<p>Booking, payments, access control, lighting, CCTV, racket hire, vending, customer communications and reporting can all influence how efficiently a venue operates.</p>
+<p>Done well, automation allows a club to provide long opening hours without needing someone physically onsite for every one of them. Done badly, you simply create multiple systems that don’t communicate with each other and require somebody centrally to keep fixing them.</p>
+<p>The question shouldn’t be <strong>“What technology can we add?”</strong> It should be <strong>“What operational problem are we trying to remove?”</strong></p></section>
+<section><h2>Don’t forget what happens off court</h2><p>Padel is inherently social. That creates an opportunity that extends beyond selling 60 or 90 minutes of court time.</p>
+<p>Where appropriate to the venue, seating, shelter, food and drink, vending, racket hire, events and well-designed social areas can improve the customer experience while also creating secondary revenue.</p>
+<p>But even where the budget is limited, the principle remains: people need somewhere they want to arrive, play and stay.</p>
+<p><strong>The space between and around the courts matters.</strong> A venue can have exceptional courts and still feel unfinished as a club.</p></section>
+<section><h2>People still matter</h2><p>Automation can make an operation leaner. It cannot create culture.</p>
+<p>Someone still needs to own the customer experience, understand the numbers, develop the community, manage coaches and partners, notice what isn’t working and take responsibility for fixing it.</p>
+<p>One of the biggest lessons from building my own business before entering padel was that scale isn’t achieved by one person becoming capable of doing everything. It comes from creating systems, standards and a culture that enable other people to perform brilliantly.</p>
+<p><strong>The stronger the people around the operation become, the stronger the business becomes.</strong></p></section>
+<section><h2>Launch is the beginning</h2><p>There is understandably huge energy around opening a new venue. But opening isn’t the outcome. Once the doors — or gates — are open, the assumptions in the original model finally meet reality.</p>
+<p>Are people booking when we expected them to? Are memberships changing behaviour? Which sessions are filling? Which aren’t? What are customers telling us? Where are we losing revenue? Where are we creating unnecessary cost? What keeps going wrong operationally?</p>
+<p>A good operating model should never be static. <strong>Measure. Learn. Adjust. Repeat.</strong></p>
+<p>The clubs that perform will be the ones prepared to keep evolving after launch rather than assuming the original plan was right.</p></section>
+<section><h2>Padel has an extraordinary opportunity</h2><p>The UK padel market is still young, and that’s what makes working in it so exciting. We’re not simply building courts. We’re establishing what the next generation of padel clubs and businesses will look like.</p>
+<p>For me, the opportunity is in connecting the two sides of that equation: <strong>creating brilliant places to play padel — and building commercially sustainable businesses around them.</strong></p>
+<p>That means thinking about the operation while you’re still looking at the site. Thinking about the customer while you’re designing the venue. Thinking about utilisation while you’re building the pricing model. Thinking about people and culture while you’re building systems. And thinking about year three while everyone else is concentrating on opening day.</p>
+<p><strong>Because ultimately, the court may bring someone through the gate for the first time. The club — and the business behind it — is what brings them back.</strong></p></section>
+  <div class="closing">
+    <p><strong>The court may bring someone through the gate for the first time. The club — and the business behind it — is what brings them back.</strong></p>
+  </div>
+</main>
+
+<footer>© 2026 Ellie Marlow · Padel Development &amp; Operations</footer>
+</body>
+</html>
